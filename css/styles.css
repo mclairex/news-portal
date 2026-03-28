@@ -13,7 +13,7 @@ header {
 .header-top {
     display: flex;
     align-items: center;
-    justify-content: center; /* centraliza o título */
+    justify-content: center;
     position: relative;
     width: 100%;   
 }
