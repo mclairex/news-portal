@@ -36,7 +36,7 @@ news-portal/
 Não é necessário backend ou instalação de dependências.
 
 ## Créditos
-- Layout e desenvolvimento: [Seu Nome]
+- Layout e desenvolvimento: [Arthur Hagel,João Evangelista e Maria Clara.]
 - Imagens e ícones: Unsplash, SVG Repo, etc.
 
 ## Licença
