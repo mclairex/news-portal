@@ -10,25 +10,35 @@ header {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
+nav a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #000000;
+}
+
 .header-top {
     display: flex;
     align-items: center;
-    justify-content: center; /* centraliza o título */
-    position: relative;
+    justify-content: space-between; /* centraliza o título */
     width: 100%;   
 }
 
 .header-left{
-    position: absolute;
-    left: 0;
+
     display: flex;
     flex-direction: column;
+
 }
 
 .header-data {
     font-size: 0.95rem;
-    margin-top: 4px;
-    font-family: 'Arial', sans-serif;
+    margin-top: 2px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 20px;
 }
 
 header h1 a {
@@ -37,6 +47,7 @@ header h1 a {
     font-weight: 800;
     line-height: 1.2;
     color: #121212;
+    text-decoration: none;
 }
 
 footer {
@@ -125,6 +136,7 @@ footer a {
     padding-top: 10px;
     margin-top: 10px;
 }
+
 /* --- ESTILO JORNAL IMPRESSO (SKEUOMORFISMO) --- */
 
 .news-wrapper {
