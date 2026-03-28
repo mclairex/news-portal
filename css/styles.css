@@ -234,3 +234,18 @@ footer a {
 .topic-item:hover h3 {
     color: #1E3A8A; /* Azul primário no hover */
 }
+.btn-voltar {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1E3A8A;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+.btn-voltar:hover {
+    color: #E11D48;
+    text-decoration: underline;
+}
