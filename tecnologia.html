@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologia | Ponto de Vista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Base e Reset */
+        body { font-family: 'Inter', sans-serif; background: #FFFFFF; color: #111111; margin: 0; padding: 0; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        
+        /* Cabeçalho da Editoria */
+        .section-header { border-bottom: 2px solid #111111; margin-bottom: 40px; padding-bottom: 10px; display: flex; justify-content: space-between; align-items: flex-end; }
+        .section-header h1 { font-family: 'Playfair Display', serif; font-size: 38px; margin: 0; text-transform: uppercase; letter-spacing: -1px; }
+        .date { font-size: 12px; color: #6B7280; text-transform: uppercase; font-weight: 600; }
+
+        /* Estilo Tech (Uso de tons mais frios/azulados para labels se desejar, mas mantendo o Branding) */
+        .tag { color: #E11D48; font-weight: 700; font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px; display: block; }
+        .tag-blue { color: #1E3A8A; }
+
+        /* Manchete Principal (OpenAI / Sora) */
+        .main-tech { border-bottom: 1px solid #E5E7EB; padding-bottom: 40px; margin-bottom: 40px; }
+        .main-tech h2 { font-family: 'Playfair Display', serif; font-size: 44px; line-height: 1.1; margin: 15px 0; letter-spacing: -1.5px; }
+        .main-tech h2:hover { color: #1E3A8A; cursor: pointer; }
+        .summary { font-size: 19px; color: #4B5563; max-width: 900px; line-height: 1.5; }
+
+        /* Grid de Notícias (Robótica e Justiça) */
+        .tech-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; border-bottom: 1px solid #E5E7EB; padding-bottom: 40px; }
+        .grid-item h3 { font-family: 'Playfair Display', serif; font-size: 26px; line-height: 1.2; margin-bottom: 12px; }
+        .grid-item p { font-size: 15px; color: #6B7280; }
+
+        /* Destaque Internacional (Áustria) */
+        .regulation-box { background: #F9FAFB; padding: 25px; border-top: 3px solid #111111; margin-top: 30px; }
+        .regulation-box h3 { font-family: 'Playfair Display', serif; font-size: 24px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header class="section-header">
+        <h1>Tecnologia</h1>
+        <span class="date">Sábado, 28 de Março de 2026</span>
+    </header>
+
+    <!-- Notícia Principal: Impacto no mercado de IA -->
+    <article class="main-tech">
+        <span class="tag">Inteligência Artificial</span>
+        <h2>OpenAI decide encerrar gerador de vídeos Sora e perde acordo bilionário com a Disney</h2>
+        <p class="summary">Em uma reviravolta inesperada para o mercado de tecnologia, a OpenAI interrompeu o desenvolvimento de sua ferramenta de vídeo, resultando no cancelamento de uma parceria histórica com a gigante do entretenimento.</p>
+    </article>
+
+    <section class="tech-grid">
+        <!-- Notícia de Robótica -->
+        <div class="grid-item">
+            <span class="tag tag-blue">Robótica & Política</span>
+            <h3>'Primeiro-robô': Melania Trump desfila com robô humanoide em evento na Casa Branca</h3>
+            <p>A aparição pública ao lado de um modelo avançado de inteligência física sinaliza uma nova fase na integração entre automação e o cotidiano da liderança americana.</p>
+        </div>
+
+        <!-- Notícia de Big Tech e Justiça -->
+        <div class="grid-item">
+            <span class="tag tag-blue">Big Techs</span>
+            <h3>Justiça dos EUA rejeita ação da X, de Elon Musk, contra suposto ‘boicote’ de grandes empresas</h3>
+            <p>A decisão judicial representa uma derrota significativa para a rede social na tentativa de forçar anunciantes a retomarem investimentos na plataforma.</p>
+        </div>
+    </section>
+
+    <!-- Notícia de Regulação Digital -->
+    <article class="regulation-box">
+        <span class="tag">Mundo Digital</span>
+        <h3>Áustria planeja proibir redes sociais para menores de 14 anos</h3>
+        <p style="color: #4B5563;">O país europeu se junta a um movimento crescente de nações que buscam endurecer as regras de acesso à internet para proteger o desenvolvimento mental de adolescentes.</p>
+    </article>
+</div>
+
+</body>
+</html>
