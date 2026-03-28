@@ -1,3 +1,44 @@
+
+header {
+    background-color: #fff;
+    color: #121212;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centraliza o título */
+    position: relative;
+    width: 100%;   
+}
+
+.header-left{
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-data {
+    font-size: 0.95rem;
+    margin-top: 4px;
+    font-family: 'Arial', sans-serif;
+}
+
+header h1 a {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #121212;
+}
+
 footer {
     background-color: #1e1e2f;
     color: white;
