@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes | Ponto de Vista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        /* Configurações Base */
+        body { font-family: 'Inter', sans-serif; background: #FFFFFF; color: #111111; margin: 0; padding: 0; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        
+        /* Cabeçalho da Editoria */
+        .section-header { border-bottom: 2px solid #111111; margin-bottom: 40px; padding-bottom: 10px; display: flex; justify-content: space-between; align-items: flex-end; }
+        .section-header h1 { font-family: 'Playfair Display', serif; font-size: 38px; margin: 0; text-transform: uppercase; letter-spacing: -1px; }
+        .date { font-size: 12px; color: #6B7280; text-transform: uppercase; font-weight: 600; }
+
+        /* Tags e Tipografia */
+        .tag { color: #1E3A8A; font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; display: block; }
+        .urgente { color: #E11D48; }
+        h2, h3 { font-family: 'Playfair Display', serif; color: #111111; margin: 0; cursor: pointer; transition: color 0.2s; }
+        h2:hover, h3:hover { color: #1E3A8A; }
+
+        /* Manchete Principal (Dibu Martínez) */
+        .main-feature { border-bottom: 1px solid #E5E7EB; padding-bottom: 40px; margin-bottom: 40px; }
+        .main-feature h2 { font-size: 46px; line-height: 1.1; letter-spacing: -2px; margin-bottom: 15px; }
+        .main-feature p { font-size: 18px; color: #4B5563; max-width: 850px; }
+
+        /* Grid de Notícias Secundárias */
+        .news-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; border-bottom: 1px solid #E5E7EB; padding-bottom: 40px; }
+        .side-story h3 { font-size: 26px; line-height: 1.2; margin-bottom: 12px; }
+        .side-story p { font-size: 15px; color: #6B7280; }
+
+        /* Seção de Utilidade (Palpites/NBA) */
+        .bottom-row { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; padding-top: 40px; }
+        .mini-card { display: flex; flex-direction: column; }
+        .mini-card h3 { font-size: 22px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="btn-voltar">← Voltar para a Capa</a>
+    
+    <header class="section-header">
+        <h1>ESPORTES</h1>
+    </header>
+
+    <article class="main-feature">
+        <span class="tag">Futebol Internacional</span>
+        <h2>Dibu Martínez detona atuação da Argentina contra Mauritânia: "Mais coração do que futebol"</h2>
+        <img src="assets/dibu-martinez.jpg" alt="Dibu Martínez">
+
+        <p>Em entrevista após o amistoso, o goleiro campeão do mundo não poupou críticas à postura da Albiceleste e cobrou evolução técnica antes do início das eliminatórias.</p>
+        <p>Após a Argentina vencer a Mauritânia por 2 a 1, nesta sexta-feira, em amistoso realizado na Bombonera, em Buenos Aires, o goleiro Dibu Martínez fez duras críticas à atuação da equipe.
+        "Foi um dos piores jogos, ainda que seja amistoso. Faltou intensidade, jogo e velocidade. É algo que temos que analisar que quando colocamos a camisa da seleção precisamos fazer muito melhor. Cabe a mim aparecer quando preciso, e eles chegaram muito. Ganhamos, mas conhecíamos pouco o rival e eles deram a vida. É preciso ter um pouco mais de coração", disse o goleiro após a vitória.
+        </p>
+    </article>
+
+    <section class="news-grid">
+        <div class="side-story">
+            <span class="tag">Fórmula 1</span>
+            <h3>Repórter expulso por Verstappen avalia se piloto apreciou dinâmica de poder</h3>
+            <p>O incidente nos bastidores do GP da Austrália reacende o debate sobre a relação tensa entre o tricampeão mundial e a mídia internacional.</p>
+        </div>
+
+        <div class="side-story">
+            <span class="tag">Basquete / NBA</span>
+            <h3>Histórico: Gui Santos se torna quarto brasileiro a fazer mais de 30 pontos na NBA</h3>
+            <p>Com uma atuação de gala vindo do banco, o ala se junta ao seleto grupo de brasileiros com marcas históricas na liga americana de basquete.</p>
+        </div>
+    </section>
+
+    <section class="bottom-row">
+        <div class="mini-card">
+            <span class="tag urgente">Guia de Jogo</span>
+            <h3>Onde assistir Internacional x Grêmio Feminino: palpite e odds</h3>
+            <p style="font-size: 14px; color: #6B7280;">Confira as prováveis escalações e as melhores cotações para o clássico Gre-Nal que agita o Brasileirão Feminino neste final de semana.</p>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>

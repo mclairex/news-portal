@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política | Ponto de Vista</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos Baseados na sua Identidade */
+        body { font-family: 'Inter', sans-serif; background: #FFFFFF; color: #111111; margin: 0; padding: 0; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        
+        /* Cabeçalho de Seção */
+        .section-header { border-bottom: 2px solid #111111; margin-bottom: 30px; padding-bottom: 10px; }
+        .section-header h1 { font-family: 'Playfair Display', serif; font-size: 36px; margin: 0; text-transform: uppercase; letter-spacing: -1px; }
+
+        /* Estilo da Manchete Principal */
+        .main-headline { border-bottom: 1px solid #E5E7EB; padding-bottom: 40px; margin-bottom: 40px; }
+        .main-headline h2 { font-family: 'Playfair Display', serif; font-size: 48px; line-height: 1.1; margin: 15px 0; letter-spacing: -2px; cursor: pointer; }
+        .main-headline h2:hover { color: #1E3A8A; } /* Azul Primário no Hover */
+        .excerpt { font-size: 18px; color: #6B7280; line-height: 1.6; max-width: 800px; }
+
+        /* Grid de Notícias Secundárias */
+        .news-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; border-bottom: 1px solid #E5E7EB; padding-bottom: 40px; }
+        .card h3 { font-family: 'Playfair Display', serif; font-size: 24px; margin-bottom: 10px; line-height: 1.2; }
+        .card p { color: #6B7280; font-size: 14px; line-height: 1.5; }
+
+        /* Tag de Análise/Opinião */
+        .label { color: #E11D48; font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
+        .analysis-box { background: #F9FAFB; padding: 20px; border-left: 4px solid #1E3A8A; margin-top: 30px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+        <!-- LINK DE RETORNO -->
+        <a href="index.html" class="btn-voltar">← Voltar para a Capa</a>
+
+        <header class="section-header">
+            <h1>POLÍTICA</h1>
+        </header>
+
+    <article class="main-headline">
+        <span class="label">Poder & Justiça</span>
+        <h2>Projeto prevê R$ 5 mil para mulher vítima de violência comprar armas</h2>
+        <img src="assets/mulher.webp" alt="Mulher vítima de violência">
+        <p class="excerpt">Proposta em Goiânia foi aprovada na Câmara de Vereadores e teve trechos vetados pelo prefeito; vereadores querem derrubar os vetos à proposta, que enfrenta críticas de especialistas no assunto.</p>
+    </article>
+
+    <section class="news-grid">
+        <div class="card">
+            <span class="label">Brasília</span>
+            <h3>Gaspar pede prisão de Lulinha após ida para PL a convite de Flávio Bolsonaro</h3>
+            <p>O movimento político inesperado gerou reações imediatas na oposição e pedidos de investigação sobre possíveis acordos de bastidores na capital federal.</p>
+        </div>
+
+        <div class="card">
+            <span class="label" style="color:#1E3A8A;">South Summit Brazil</span>
+            <h3>Governo do Estado lança Política de Tecnologia para a Rede Estadual em painel do evento</h3>
+            <p>Iniciativa foca na digitalização do ensino e infraestrutura tecnológica para escolas públicas, apresentada hoje em Porto Alegre.</p>
+        </div>
+    </section>
+
+    <article class="analysis-box">
+        <span class="label" style="color: #1E3A8A;">Análise Editorial</span>
+        <h3 style="font-family: 'Playfair Display', serif; font-size: 28px; margin: 10px 0;">Moraes abre mais um caminho que pode frear caso Master</h3>
+        <p style="color: #4B5563; font-style: italic;">Entenda como o novo despacho do ministro pode redefinir os limites de atuação em investigações que envolvem grandes corporações e o rito processual.</p>
+    </article>
+</div>
+
+</body>
+</html>
