@@ -129,8 +129,7 @@ footer a {
 /* --- ESTILO JORNAL IMPRESSO (SKEUOMORFISMO) --- */
 
 .news-wrapper {
-    background-color: #f4f1ea; /* Cor de papel envelhecido */
-    /* Textura sutil que imita porosidade do papel */
+    background-color: #f4f1ea; 
     background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); 
     color: #121212;
     padding: 40px 0;
@@ -142,18 +141,17 @@ footer a {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 2.5fr 1fr; /* Coluna bombástica maior que a lateral */
+    grid-template-columns: 2.5fr 1fr;
     gap: 40px;
     padding: 0 20px;
 }
 
-/* --- COLUNA DA NOTÍCIA BOMBÁSTICA --- */
-.headline-bombastica {
+.headline-news {
     border-right: 1px solid #dcdcdc;
     padding-right: 40px;
 }
 
-.headline-bombastica h1 {
+.headline-news h1 {
     font-family: 'Playfair Display', serif; /* Similar à Cheltenham */
     font-size: 64px;
     font-weight: 900;
@@ -163,24 +161,23 @@ footer a {
     text-transform: uppercase;
 }
 
-.headline-bombastica .main-image {
+.headline-news .main-image {
     width: 100%;
     height: auto;
     border: 1px solid #000;
-    filter: sepia(10%) contrast(1.1); /* Efeito de foto impressa */
+    filter: sepia(10%) contrast(1.1);
     margin-bottom: 15px;
 }
 
-.headline-bombastica .news-content {
-    font-family: 'Lora', serif; /* Similar à Imperial */
+.headline-news .news-content {
+    font-family: 'Lora', serif;
     font-size: 18px;
     line-height: 1.6;
-    column-count: 2; /* Divide o texto em 2 colunas de jornal */
+    column-count: 2;
     column-gap: 30px;
     text-align: justify;
 }
 
-/* --- BARRA LATERAL (HOT TOPICS) --- */
 .hot-topics h2 {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 14px;
@@ -206,7 +203,7 @@ footer a {
 .topic-item .tag {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 11px;
-    color: #E11D48; /* Vermelho bombástico */
+    color: #E11D48;
     font-weight: 900;
     text-transform: uppercase;
     display: block;
@@ -221,8 +218,9 @@ footer a {
 }
 
 .topic-item:hover h3 {
-    color: #1E3A8A; /* Azul primário no hover */
+    color: #1E3A8A;
 }
+
 .btn-voltar {
     display: inline-block;
     font-family: 'Inter', sans-serif;
